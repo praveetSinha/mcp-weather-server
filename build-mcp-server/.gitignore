@@ -1,0 +1,65 @@
+# --------------------------------------
+# Python & Virtual Environment
+# --------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# --------------------------------------
+# Environment & Configuration Files
+# --------------------------------------
+.env
+.env.*
+.python-version
+
+# --------------------------------------
+# Dependency Management
+# --------------------------------------
+uv.lock
+poetry.lock
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# --------------------------------------
+# Build & Packaging
+# --------------------------------------
+build/
+dist/
+*.whl
+
+# --------------------------------------
+# IDE & Editor
+# --------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------------------
+# OS-specific files
+# --------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------------------
+# Miscellaneous
+# --------------------------------------
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# --------------------------------------
+# Cache & Temporary Data
+# --------------------------------------
+.cache/
+.mypy_cache/
+.pytest_cache/
+__pypackages__/
