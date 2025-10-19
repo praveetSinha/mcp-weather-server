@@ -41,5 +41,5 @@ def get_weather(city: str) -> str:
     
 if __name__ == "__main__":
     #initialize and run the server
-    mcp.run(transport='studio')
+    mcp.run(transport='stdio')
 
